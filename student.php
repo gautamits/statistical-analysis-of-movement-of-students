@@ -1,6 +1,6 @@
 <?php
 include("connection_location.php");
-$sql = "select * from building ";
+$sql = "select * from project.building";
 $result = $conn->query($sql);
 // echo json_encode($result);
 
