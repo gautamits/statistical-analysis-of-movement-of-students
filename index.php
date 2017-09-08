@@ -251,7 +251,7 @@
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">
                                             <?php
-                                            mysql_connect("localhost","root","13108039")or die("cannot connect");
+                                            mysql_connect("localhost","root","password")or die("cannot connect");
                                             mysql_query("use project");
                                             $result=mysql_fetch_array(mysql_query("select count(transaction_id) from log"));
                                             echo $result[0];
@@ -279,7 +279,7 @@
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge"><?php
-                                            mysql_connect("localhost","root","13108039")or die("cannot connect");
+                                            mysql_connect("localhost","root","password")or die("cannot connect");
                                             mysql_query("use project");
                                             $i=1;
                                             $sum=0;
@@ -314,7 +314,7 @@
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">
                                         <?php 
-                                            mysql_connect("localhost","root","13108039")or die("cannot connect");
+                                            mysql_connect("localhost","root","password")or die("cannot connect");
                                             mysql_query("use project");
                                             $result=mysql_fetch_array(mysql_query("select count(new_txn_id) from error"));
                                             echo $result[0];
@@ -342,7 +342,7 @@
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge"><?php 
-                                            mysql_connect("localhost","root","13108039")or die("cannot connect");
+                                            mysql_connect("localhost","root","password")or die("cannot connect");
                                             mysql_query("use project");
                                             $result=mysql_fetch_array(mysql_query("select r_number_of_students from region where region_id=0"));
                                             echo $result[0];

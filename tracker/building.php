@@ -1,6 +1,6 @@
 
 <?php
-mysql_connect("localhost","root","13108039")or die("cannot connect");
+mysql_connect("localhost","root","password")or die("cannot connect");
 mysql_query("use project");
 $i=1;
 $a=array();

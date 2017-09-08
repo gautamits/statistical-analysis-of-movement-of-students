@@ -1,5 +1,5 @@
 <?php
-mysql_connect("localhost","root","13108039")or die("cannot connect");
+mysql_connect("localhost","root","password")or die("cannot connect");
 //$roll_no=$_POST['roll_no'];
 //$gate_type=$_POST['gate_type'];
 //$gate_id=$_POST['gate_id'];
